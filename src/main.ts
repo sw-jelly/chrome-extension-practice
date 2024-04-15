@@ -12,7 +12,6 @@ if (url.startsWith("/problem/")) {
   customProblemPage();
 }
 
-// 뺐다가 submit 커밋할 때만 넣기
 if (url.startsWith("/submit")) {
   customSubmitPage();
 }
