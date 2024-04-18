@@ -39,10 +39,7 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [
-        { from: ".", to: "../", context: "public" },
-        { from: "src/rules.json", to: "../" },
-      ],
+      patterns: [{ from: ".", to: "../", context: "public" }],
       options: {},
     }),
   ],
